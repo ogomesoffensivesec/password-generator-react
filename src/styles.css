@@ -1,0 +1,55 @@
+body {
+  background-color: #03071e;
+}
+.App {
+  font-family: montserrat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-context {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #01030c;
+  border-radius: 20px;
+  font-family: montserrat;
+}
+h2 {
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+}
+
+input {
+  background-color: #03071e;
+  border: 2px solid #ffba08;
+  height: 30px;
+  width: 200px;
+  color: #fff;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+button {
+  background-color: #ffba08;
+  border: none;
+  font-size: 70%;
+  font-weight: 600;
+  color: #6a040f;
+  margin: 5px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 200px;
+  padding: 8px 8px;
+}
